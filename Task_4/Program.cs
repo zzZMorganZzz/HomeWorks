@@ -1,18 +1,19 @@
 ﻿#region Task_1 (возведение числа А в степень В)
-// int a = 4;
-// int b =5;
+int a = 4;
+int b =5;
 
-// Console.WriteLine("{0}^{1} -> {2}",a,b,CustomPow(a,b));
+Console.WriteLine("{0}^{1} -> {2}",a,b,CustomPow(a,b));
+Console.WriteLine("{0}^{1} -> {2}",a,b,Math.Pow(a,b));
 
-// int CustomPow (int _a, int _b)
-// {
-//     int _result =1;
-//     for (int i=0;i<b;i++)
-//     {
-//         _result = _result*_a;
-//     }
-//     return _result;
-// }
+int CustomPow (int _a, int _b)
+{
+    int _result =1;
+    for (int i=0;i<b;i++)
+    {
+        _result = _result*_a;
+    }
+    return _result;
+}
 
 #endregion
 
